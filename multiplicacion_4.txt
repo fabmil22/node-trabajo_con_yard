@@ -1,0 +1,10 @@
+La multiplicacion de 4 por 0  es igual a  0 
+La multiplicacion de 4 por 1  es igual a  4 
+La multiplicacion de 4 por 2  es igual a  8 
+La multiplicacion de 4 por 3  es igual a  12 
+La multiplicacion de 4 por 4  es igual a  16 
+La multiplicacion de 4 por 5  es igual a  20 
+La multiplicacion de 4 por 6  es igual a  24 
+La multiplicacion de 4 por 7  es igual a  28 
+La multiplicacion de 4 por 8  es igual a  32 
+La multiplicacion de 4 por 9  es igual a  36 

@@ -1,0 +1,15 @@
+{
+  "name": "base-node",
+  "version": "2.0.0",
+  "description": "esta es una aplicacion de linea de comnando para multiplicar y dividir",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabian Miliani",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {}
+}
