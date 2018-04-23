@@ -1,4 +1,5 @@
 const argv = require('./config/yargs').argv;
+var colors = require('colors/safe');
 const { crearTabla , crearTablaDividir , listarTable } = require('./multiplicacion/multiplicat');
 
  let commad = argv._[0];
@@ -14,13 +15,16 @@ console.log('el limite es ', limite);
       break;
      case 'crear':
         console.log('creando');
-        crearTabla(base , limite).then( console.log(`Se ha creado la  tabla del ${base}`))
-        .catch( err => console.log(err));
-        crearTablaDividir(base , limite).then( console.log(`Se ha creado la  tabla  de dividir de ${base}`))
+        crearTabla(base , limite).then(
+            console.log( colors.cyan(`Se ha creado la  tabla del ${base}`)) ).catch( err => console.log(err));
+
+
+
+        crearTablaDividir(base , limite).then( console.log(colors.cyan(`Se ha creado la  tabla  de dividir de ${base}`)))
         .catch( err => console.log(err));
        break;
       default:
-       console.log('no encontrado');
+       console.log(colors.red('no encontrado'));
  }
 
 

@@ -1,5 +1,5 @@
 
-
+var colors = require('colors/safe');
 
 const argv = require('yargs')
 .usage('$0 <cmd> [args]')

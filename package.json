@@ -9,6 +9,7 @@
   "author": "Fabian Miliani",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.2.1",
     "yargs": "^11.0.0"
   },
   "devDependencies": {}

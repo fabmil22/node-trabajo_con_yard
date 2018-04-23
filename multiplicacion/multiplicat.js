@@ -1,4 +1,4 @@
-
+var colors = require('colors');
 const fs = require('fs');
 
 let data = '';
@@ -8,7 +8,9 @@ let listarTable =  async (base , limit = 10) => {
 
     //if base or  limit  don't be number
     if ( !Number(base)) {
-        console.log(' para que funcion debe ser un numero');
+        
+        console.log(' para que funcion debe ser un numero'.green);
+        console.log(colors.green('hello')); 
          process.exit();
           
      }
@@ -56,7 +58,7 @@ let crearTablaDividir  =  async (base , limit = 10) =>{
         
         fs.writeFile(`division_${base}.txt`, data1, (err) => {
             if (err) throw err;
-            console.log('The file has been saved!');
+            console.log(colors.green('Has been saved!'));
           });
 
 }
