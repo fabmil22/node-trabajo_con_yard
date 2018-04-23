@@ -38,7 +38,7 @@ let crearTabla  =  async (base , limit = 10) =>{
         
         fs.writeFile( `multiplicacion_${base}.txt` , data, (err) => {
             if (err) throw err;
-            console.log('The file has been saved!');
+            console.log(colors.bgCyan('Has been saved!'));
           });
 
 }
@@ -58,7 +58,7 @@ let crearTablaDividir  =  async (base , limit = 10) =>{
         
         fs.writeFile(`division_${base}.txt`, data1, (err) => {
             if (err) throw err;
-            console.log(colors.green('Has been saved!'));
+            console.log(colors.bgCyan('Has been saved!'));
           });
 
 }
