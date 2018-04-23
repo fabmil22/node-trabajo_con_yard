@@ -1,9 +1,0 @@
- 2 / 1  es igual a  2 
- 2 / 2  es igual a  1 
- 2 / 3  es igual a  0.6666666666666666 
- 2 / 4  es igual a  0.5 
- 2 / 5  es igual a  0.4 
- 2 / 6  es igual a  0.3333333333333333 
- 2 / 7  es igual a  0.2857142857142857 
- 2 / 8  es igual a  0.25 
- 2 / 9  es igual a  0.2222222222222222 

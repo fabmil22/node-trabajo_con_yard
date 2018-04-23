@@ -3,9 +3,6 @@ const fs = require('fs');
 
 let data = '';
 let data1 = '';
-
-
-
 let listarTable =  async (base , limit = 10) => {
 
 
