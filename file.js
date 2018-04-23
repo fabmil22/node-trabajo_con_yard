@@ -1,6 +1,6 @@
 
 
- require('yargs')
+  const argv = require('yargs')
  .usage('$0 <cmd> [args]')
  .command('listar [name]', 'Imprime en consola la tabla de multiplicar',(yargs) => {
     yargs.positional('base' , {
@@ -19,7 +19,7 @@
     })
 })
 .help().argv;
-const { crearTabla , crearTablaDividir } = require('./multiplicacion/multiplicat');
+const { crearTabla , crearTablaDividir , listarTable } = require('./multiplicacion/multiplicat');
 
 
 
@@ -27,12 +27,28 @@ const { crearTabla , crearTablaDividir } = require('./multiplicacion/multiplicat
 //let parametr = argv[2];
 //let valor = parametr.split('=');
 //let  base = valor[1];
-console.log(argv.base);
-console.log('limite es',argv.limite);
+ let commad = argv._[0];
+ let base = argv.base;
+ let limite = argv.limite;
+console.log('el limite es ', limite);
+ switch(commad){
+      case 'listar':
+      console.log('listando');
+      listarTable(base , limite);
+
+      break;
+     
+      case 'crear':
+      console.log('creando');
+      crearTabla(base , limite).then( console.log(`Se ha creado la  tabla del ${base}`))
+      .catch( err => console.log(err));
+      crearTablaDividir(base , limite).then( console.log(`Se ha creado la  tabla  de dividir de ${base}`))
+      .catch( err => console.log(err));
 
 
-let base = argv.base;
-crearTabla(base).then( console.log(`Se ha creado la  tabla del ${base}`))
-.catch( err => console.log(err));
-crearTablaDividir(base).then( console.log(`Se ha creado la  tabla  de dividir de ${base}`))
-.catch( err => console.log(err));
+      break;
+      default:
+      console.log('no encontrado');
+ }
+
+

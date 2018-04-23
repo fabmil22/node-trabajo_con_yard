@@ -1,0 +1,9 @@
+ 34 / 1  es igual a  34 
+ 34 / 2  es igual a  17 
+ 34 / 3  es igual a  11.333333333333334 
+ 34 / 4  es igual a  8.5 
+ 34 / 5  es igual a  6.8 
+ 34 / 6  es igual a  5.666666666666667 
+ 34 / 7  es igual a  4.857142857142857 
+ 34 / 8  es igual a  4.25 
+ 34 / 9  es igual a  3.7777777777777777 

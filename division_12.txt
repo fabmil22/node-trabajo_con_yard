@@ -1,0 +1,9 @@
+ 12 / 1  es igual a  12 
+ 12 / 2  es igual a  6 
+ 12 / 3  es igual a  4 
+ 12 / 4  es igual a  3 
+ 12 / 5  es igual a  2.4 
+ 12 / 6  es igual a  2 
+ 12 / 7  es igual a  1.7142857142857142 
+ 12 / 8  es igual a  1.5 
+ 12 / 9  es igual a  1.3333333333333333 

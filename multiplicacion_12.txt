@@ -1,0 +1,10 @@
+La multiplicacion de 12 por 0  es igual a  0 
+La multiplicacion de 12 por 1  es igual a  12 
+La multiplicacion de 12 por 2  es igual a  24 
+La multiplicacion de 12 por 3  es igual a  36 
+La multiplicacion de 12 por 4  es igual a  48 
+La multiplicacion de 12 por 5  es igual a  60 
+La multiplicacion de 12 por 6  es igual a  72 
+La multiplicacion de 12 por 7  es igual a  84 
+La multiplicacion de 12 por 8  es igual a  96 
+La multiplicacion de 12 por 9  es igual a  108 

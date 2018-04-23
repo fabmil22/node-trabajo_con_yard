@@ -5,7 +5,26 @@ let data = '';
 let data1 = '';
 
 
-let crearTabla  =  async (base) =>{
+
+let listarTable =  async (base , limit = 10) => {
+
+
+    //if base or  limit  don't be number
+    if ( !Number(base)) {
+        console.log(' para que funcion debe ser un numero');
+         process.exit();
+          
+     }
+
+     for(  let x = 0 ; x <= limit ; x ++ ){
+        data +=  ` ${ base} x ${x}  =  ${base * x } \n` ;
+
+        }
+       console.log(data);
+}
+
+
+let crearTabla  =  async (base , limit = 10) =>{
 
     if (!Number(base)){
        console.log(' para que funcion debe ser un numero');
@@ -13,8 +32,8 @@ let crearTabla  =  async (base) =>{
          
     }
 
-    for(  let x = 0; x < 10; x ++ ){
-        data +=  `La multiplicacion de ${ base} por ${x}  es igual a  ${base * x } \n` ;
+    for(  let x = 0; x <= limit ; x ++ ){
+        data +=  ` ${ base} x ${x}  = ${base * x } \n` ;
         }
         
         
@@ -26,14 +45,14 @@ let crearTabla  =  async (base) =>{
 }
 
 
-let crearTablaDividir  =  async (base) =>{
+let crearTablaDividir  =  async (base , limit = 10) =>{
     if (!Number(base)){
         console.log(' para que funcion debe ser un numero');
          process.exit();
           
      }
 
-    for(  let x = 1; x < 10; x ++ ){
+    for(  let x = 1; x < limit; x ++ ){
         data1 +=  ` ${ base} / ${x}  es igual a  ${base / x } \n` ;
         }
         
@@ -47,7 +66,8 @@ let crearTablaDividir  =  async (base) =>{
 
 module.exports ={
     crearTabla,
-    crearTablaDividir
+    crearTablaDividir,
+    listarTable 
 
 
 }

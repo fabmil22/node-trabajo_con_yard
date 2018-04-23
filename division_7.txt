@@ -1,0 +1,9 @@
+ 7 / 1  es igual a  7 
+ 7 / 2  es igual a  3.5 
+ 7 / 3  es igual a  2.3333333333333335 
+ 7 / 4  es igual a  1.75 
+ 7 / 5  es igual a  1.4 
+ 7 / 6  es igual a  1.1666666666666667 
+ 7 / 7  es igual a  1 
+ 7 / 8  es igual a  0.875 
+ 7 / 9  es igual a  0.7777777777777778 
